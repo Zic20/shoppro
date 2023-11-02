@@ -1,5 +1,5 @@
 import styles from "../sections/Solutions.module.css";
-import shop_image_1 from "../assets/Shop_1.png";
+import shop_image_1 from "../assets/shop_1.png";
 const Solutions = () => {
   return (
     <div className={styles.solutions}>
