@@ -1,0 +1,14 @@
+.businessCard {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    width: 300px;
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+.businessCard img {
+    width: 100%;
+    margin-bottom: .5rem;
+}

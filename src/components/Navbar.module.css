@@ -1,0 +1,41 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 5rem;
+    margin-bottom: 2rem;
+    height: 10px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.navbar ul li a {
+    cursor: pointer;
+}
+
+.navbar ul li a:hover {
+    color: #23D606;
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar {
+        padding: 2rem 1rem;
+        margin: 0;
+    }
+
+    .navbar ul {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .navbar {
+        padding: 2rem;
+        margin: 0;
+    }
+}

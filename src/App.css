@@ -1,0 +1,24 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.text_primary {
+  color: #23D606;
+}
+
+.text_secondary {
+  color: #FCBB01;
+}
+
+.cta_buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+  .cta_buttons button {
+    width: 90%;
+  }
+}

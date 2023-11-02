@@ -1,0 +1,29 @@
+button {
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    font-weight: 700;
+    transition: transform .3s ease-in-out;
+    font-family: 'Inria Sans', sans-serif;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 1px 2px 5px 1px #fcb9011c;
+}
+
+button:active {
+    transform: translateY(-1px);
+    box-shadow: 1px 1px 2px 1px #fcb9011c;
+}
+
+button.primary {
+    background-color: #000000;
+    color: #fff;
+}
+
+button.secondary {
+    background-color: #Ffffff;
+    border: 1px solid black;
+    color: #000000;
+}
